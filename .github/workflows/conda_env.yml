@@ -19,7 +19,7 @@ jobs:
         shell: pwsh
         run: |
           conda install scipy
-          conda install nipy
+          conda install nipype
 
       - name: Hello World 
         shell: pwsh
